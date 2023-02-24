@@ -18,3 +18,37 @@
 //         }
 //     }
 // }
+body {
+    display: block;
+}
+.main {
+    header{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    .section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        .box {
+            width: 50vw;
+            
+            
+            .box.left {
+                height: 60vh;
+                
+            }
+            .box.right{
+                .box.right.two{
+                    margin-top: 30px;
+                }
+            }
+            
+            
+            
+        }
+    }
+
+}

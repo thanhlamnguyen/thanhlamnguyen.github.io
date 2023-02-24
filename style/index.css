@@ -2,4 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: block;
+}
+
+.main header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.main .section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.main .section .box {
+  width: 50vw;
+}
+.main .section .box .box.left {
+  height: 60vh;
+}
+.main .section .box .box.right .box.right.two {
+  margin-top: 30px;
 }/*# sourceMappingURL=index.css.map */
