@@ -2,92 +2,210 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #f1f1f1;
+    // background: #f1f1f1;
+}
+body {
+    background-color: #f1f1f1 ;
 }
 
-// body {
-   
-//     background-color: #f1f1f1;
-// }
 @media screen and (min-width: 769px) {
     .main {
         // display: flex;
         
         header{
-            padding-top: 30px;
-            padding-bottom: 30px;
-            text-align: center;
+            h1,p {
+                text-align: center;
+            }
+            p {
+                span {
+                    background-color: black;
+                    color: white;
+                    padding: 4px;
+                    font-weight: bold;
+                }
+            }
+            margin: 60px auto;
         }
         
         .section {
             display: flex;
-            justify-content: space-between;
-            margin: 30px 20px;
-            
-            width: 100vw;
-            height: 100%;
-            border: 1px solid red;
+            justify-content: space-around;
+            // margin: 30px 20px;
+            margin: 0 60px;
+            // width: 100vw;
+            // height: 100vh;
+            // border: 1px solid red;
             
             
             .box {
                 // width: 80%;
-                height: 93%;
-                border: 2px solid #ccc;
-                margin: 5px 0px;
+                // height: 90%;
+                // border: 2px solid #ccc;
+                // margin: 5px 0px;
                 .box.left { 
-                    width: 90%;
-                    left: 10px;
-                    position: relative;
+                    width: 95%;
+                    // left: 10px;
+                    // position: relative;
                     background-color: #fff;
                     margin-bottom: 50px;
+                    .box.left.one {
+                        top: 10px;
+                        bottom: 10px;
+                        left: 10px;
+                        right: 10px;
+                        position: relative;
+                       
+                    }
+                    }
+                    
                    
                 }
                 .box.right {
-                    width: 60%; 
+                    width: 100%;
+                    // background-color: #fff;
+                    margin-bottom: 60px;
+                    .box.right.info {
+                        
+                        background-color: #fff;
+                        .box.right.info.container {
+                            top: 10px;  
+                            position: relative;
+                           
+                        }
+                    // .box.right.popular_post {
+                        
+                    //    .box.right.popular_post.title {
+                    //         background: #fff;
+                    //         width: 100%;
+                    //         height: 30px;
+                    //         font-size: 30px;
+                    //    }
+                    // }   
+                    }
                 }           
              
             }
+        
+        .footer {
+            width: 100vw;
+            height: 20vh;
+            background: #616161;
+        }
         }
     
     }
-}
+
 
 @media screen and (max-width: 768px) {
     .main {
         // display: flex;
         
         header{
-            padding-top: 30px;
-            padding-bottom: 30px;
-            text-align: center;
+            h1,p {
+                text-align: center;
+            }
+            p {
+                span {
+                    background-color: black;
+                    color: white;
+                    padding: 4px;
+                    font-weight: bold;
+                }
+            }
+            margin: 60px auto;
         }
         
+        // .section {
+        //     display: block;
+        //     justify-content: space-between;
+        //     margin: 0 30px;
+        //     width: 100vw;
+        //     // height: 100%;
+        //     // border: 1px solid red;
+            
+            
+        //     .box {
+        //         width: 100%;
+        //         height: 93%;
+        //         // border: 2px solid #ccc;
+        //         margin: 5px 0px;
+        //         .box.left {
+                    
+        //             // left: 10px;
+        //             position: relative;
+        //             background-color: #fff;
+        //             margin-bottom: 50px;
+                
+                   
+        //         }
+               
+        //     }
+        // }
         .section {
             display: block;
-            justify-content: space-between;
-            margin: 30px 20px;
-            width: 90vw;
-            height: 100%;
+            
+            // margin: 30px 20px;
+            margin: 0 20px;
+            width: 100vw;
+            // height: 100vh;
             // border: 1px solid red;
             
             
             .box {
-                width: 100%;
-                height: 93%;
+                // width: 80%;
+                // height: 90%;
                 // border: 2px solid #ccc;
-                margin: 5px 0px;
-                .box.left {
+                // margin: 5px 0px;
+                .box.left { 
+                    width: 94%;
                     
-                    left: 10px;
-                    position: relative;
+                    // left: 10px;
+                    // position: relative;
                     background-color: #fff;
                     margin-bottom: 50px;
-                
+                    .box.left.one {
+                        top: 10px;
+                        bottom: 10px;
+                        left: 10px;
+                        right: 10px;
+                        position: relative;
+                       
+                    }
+                    }
+                    
                    
                 }
-               
+                .box.right {
+                    width: 97%;
+                    
+                    // background-color: #fff;
+                    margin-bottom: 60px;
+                    .box.right.info {
+                        
+                        background-color: #fff;
+                        .box.right.info.container {
+                            top: 10px;  
+                            position: relative;
+                           
+                        }
+                    // .box.right.popular_post {
+                        
+                    //    .box.right.popular_post.title {
+                    //         background: #fff;
+                    //         width: 100%;
+                    //         height: 30px;
+                    //         font-size: 30px;
+                    //    }
+                    // }   
+                    }
+                }           
+             
             }
-        }
+            .footer {
+                width: 100vw;
+                height: 20vh;
+                background: #616161;
+            }
     
     }
 }
