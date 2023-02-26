@@ -9,45 +9,67 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-  .main header {
+  .main .heading {
     margin: 60px auto;
   }
-  .main header h1, .main header p {
+  .main .heading h1, .main .heading p {
     text-align: center;
   }
-  .main header p span {
+  .main .heading p {
+    margin: 20px 20px;
+  }
+  .main .heading p span {
     background-color: black;
     color: white;
     padding: 4px;
     font-weight: bold;
   }
-  .main .section {
+  .main .content {
     display: flex;
-    justify-content: space-around;
     margin: 0 60px;
   }
-  .main .section .box .box.left {
-    width: 95%;
+  .main .content .left {
+    width: 66.66%;
+    height: 100%;
+    margin-right: 30px;
+  }
+  .main .content .left .box {
+    width: 100%;
     background-color: #fff;
+    border: 1px solid rgb(229, 229, 229);
     margin-bottom: 50px;
   }
-  .main .section .box .box.left .box.left.one {
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    position: relative;
+  .main .content .left .box .container {
+    border: none;
   }
-  .main .section .box.right {
+  .main .content .left .box .container .btn {
+    margin-bottom: 20px;
+  }
+  .main .content .right {
+    width: 33.33%;
+    height: 100%;
+  }
+  .main .content .right .right.info {
     width: 100%;
-    margin-bottom: 60px;
-  }
-  .main .section .box.right .box.right.info {
     background-color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid rgb(229, 229, 229);
   }
-  .main .section .box.right .box.right.info .box.right.info.container {
-    top: 10px;
-    position: relative;
+  .main .content .right .right.info .container {
+    border: none;
+  }
+  .main .content .right .right.popular_post {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    border: 1px solid rgb(229, 229, 229);
+  }
+  .main .content .right .right.popular_post .title {
+    background-color: grey;
+  }
+  .main .content .right .right.popular_post .title h4 {
+    font-size: 20px;
+    margin: 20px 20px;
   }
   .main .footer {
     width: 100vw;
@@ -56,49 +78,71 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .main header {
+  .main .heading {
     margin: 60px auto;
   }
-  .main header h1, .main header p {
+  .main .heading h1, .main .heading p {
     text-align: center;
   }
-  .main header p span {
+  .main .heading p {
+    margin: 20px 20px;
+  }
+  .main .heading p span {
     background-color: black;
     color: white;
     padding: 4px;
     font-weight: bold;
   }
-  .main .section {
+  .main .content {
     display: block;
     margin: 0 20px;
-    width: 100vw;
   }
-  .main .section .box .box.left {
-    width: 94%;
+  .main .content .left {
+    width: 100%;
+    height: 100%;
+    margin-right: 30px;
+  }
+  .main .content .left .box {
+    width: 100%;
     background-color: #fff;
-    margin-bottom: 50px;
+    border: 1px solid rgb(229, 229, 229);
+    margin-bottom: 30px;
   }
-  .main .section .box .box.left .box.left.one {
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    position: relative;
+  .main .content .left .box .container {
+    border: none;
   }
-  .main .section .box.right {
-    width: 97%;
-    margin-bottom: 60px;
+  .main .content .left .box .container .btn {
+    margin-bottom: 20px;
   }
-  .main .section .box.right .box.right.info {
+  .main .content .right {
+    width: 100%;
+    height: 100%;
+  }
+  .main .content .right .right.info {
+    width: 100%;
     background-color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid rgb(229, 229, 229);
   }
-  .main .section .box.right .box.right.info .box.right.info.container {
-    top: 10px;
-    position: relative;
+  .main .content .right .right.info .container {
+    border: none;
+  }
+  .main .content .right .right.popular_post {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid rgb(229, 229, 229);
+  }
+  .main .content .right .right.popular_post .title {
+    background-color: grey;
+  }
+  .main .content .right .right.popular_post .title h4 {
+    font-size: 20px;
+    margin: 20px 20px;
   }
   .main .footer {
     width: 100vw;
     height: 20vh;
     background: #616161;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=index.css.map */
