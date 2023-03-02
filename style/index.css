@@ -5,152 +5,210 @@
 }
 
 body {
-  background-color: #cccccc;
+  background-color: #f1f1f1;
+  color: #000 !important;
+}
+
+h1, h2, h3, h4, h5, p, span {
+  font-family: "Raleway", sans-serif;
 }
 
 @media screen and (min-width: 769px) {
   .main .heading {
-    margin: 60px auto;
-  }
-  .main .heading h1, .main .heading p {
     text-align: center;
-    font-size: 20px;
+    margin: 50px 0;
+  }
+  .main .heading h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
   }
   .main .heading p {
-    margin: 20px 20px;
+    font-size: 15px;
   }
   .main .heading p span {
-    background-color: black;
+    background-color: #000;
     color: white;
-    padding: 4px;
-    font-weight: bold;
   }
   .main .content {
     display: flex;
-    margin: 0 60px;
+    margin: 0 50px;
   }
   .main .content .left {
     width: 66.66%;
-    height: 100%;
     margin-right: 30px;
   }
   .main .content .left .box {
-    width: 100%;
+    margin-bottom: 30px;
     background-color: #fff;
-    border: 1px solid rgb(229, 229, 229);
-    margin-bottom: 50px;
-    font-size: 20px;
+  }
+  .main .content .left .box img {
+    width: 100%;
   }
   .main .content .left .box .container {
-    border: none;
+    padding: 10px 10px;
   }
-  .main .content .left .box .container .btn {
-    margin-bottom: 20px;
+  .main .content .left .box .container h3 {
+    font-size: 24px;
+  }
+  .main .content .left .box .container h5 {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  .main .content .left .box .container p {
+    padding-bottom: 10px;
+    font-size: 15px;
   }
   .main .content .right {
     width: 33.33%;
-    height: 100%;
-    font-size: 20px;
   }
-  .main .content .right .right.info {
-    width: 100%;
-    background-color: #fff;
+  .main .content .right .info {
     margin-bottom: 30px;
-    border: 1px solid rgb(229, 229, 229);
-  }
-  .main .content .right .right.info .container {
-    border: none;
-  }
-  .main .content .right .right.popular_post {
-    width: 100%;
-    display: block;
     background-color: #fff;
-    border: 1px solid rgb(229, 229, 229);
   }
-  .main .content .right .right.popular_post .title {
-    background-color: #cccccc;
+  .main .content .right .info img {
+    width: 100%;
   }
-  .main .content .right .right.popular_post .title h4 {
+  .main .content .right .info .container {
+    padding: 10px 10px;
+  }
+  .main .content .right .info .container h4 {
     font-size: 20px;
+  }
+  .main .content .right .info .container p {
+    padding: 10px 0;
+    font-size: 15px;
+  }
+  .main .content .right .popular_post {
+    background-color: #fff;
+  }
+  .main .content .right .popular_post h4 {
+    background-color: #d7d7d7;
+    padding: 20px 20px;
+    font-size: 20px;
+  }
+  .main .content .right .popular_post .container {
+    display: inline-block;
     margin: 20px 20px;
   }
+  .main .content .right .popular_post .container img {
+    width: 30%;
+    float: left;
+  }
+  .main .content .right .popular_post .container p {
+    padding: 20px;
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+  }
+  .main .content .right .popular_post .container span {
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+  }
   .main .footer {
+    margin-top: 20px;
+    background-color: #616161;
     width: 100vw;
     height: 20vh;
-    background: #616161;
-    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: white;
   }
 }
 @media screen and (max-width: 768px) {
   .main .heading {
-    margin: 60px auto;
-  }
-  .main .heading h1, .main .heading p {
     text-align: center;
-    font-size: 20px;
+    margin: 50px 0;
+  }
+  .main .heading h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
   }
   .main .heading p {
-    margin: 20px 20px;
+    font-size: 15px;
   }
   .main .heading p span {
-    background-color: black;
+    background-color: #000;
     color: white;
-    padding: 4px;
-    font-weight: bold;
   }
   .main .content {
     display: block;
     margin: 0 20px;
   }
-  .main .content .left {
-    width: 100%;
-    height: 100%;
-    margin-right: 30px;
-  }
   .main .content .left .box {
-    width: 100%;
+    margin-bottom: 20px;
     background-color: #fff;
-    border: 1px solid rgb(229, 229, 229);
-    margin-bottom: 30px;
-    font-size: 20px;
+  }
+  .main .content .left .box img {
+    width: 100%;
   }
   .main .content .left .box .container {
-    border: none;
+    padding: 10px 10px;
   }
-  .main .content .left .box .container .btn {
+  .main .content .left .box .container h3 {
+    font-size: 24px;
+  }
+  .main .content .left .box .container h5 {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  .main .content .left .box .container p {
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+  .main .content .right .info {
     margin-bottom: 20px;
+    background-color: #fff;
   }
-  .main .content .right {
+  .main .content .right .info img {
     width: 100%;
-    height: 100%;
+  }
+  .main .content .right .info .container {
+    padding: 10px 10px;
+  }
+  .main .content .right .info .container h4 {
     font-size: 20px;
   }
-  .main .content .right .right.info {
-    width: 100%;
+  .main .content .right .info .container p {
+    padding: 10px 0;
+    font-size: 15px;
+  }
+  .main .content .right .popular_post {
     background-color: #fff;
-    margin-bottom: 30px;
-    border: 1px solid rgb(229, 229, 229);
   }
-  .main .content .right .right.info .container {
-    border: none;
-  }
-  .main .content .right .right.popular_post {
-    width: 100%;
-    background-color: #fff;
-    border: 1px solid rgb(229, 229, 229);
-  }
-  .main .content .right .right.popular_post .title {
-    background-color: #cccccc;
-  }
-  .main .content .right .right.popular_post .title h4 {
+  .main .content .right .popular_post h4 {
+    background-color: #f1f1f1;
+    padding: 20px 20px;
     font-size: 20px;
+  }
+  .main .content .right .popular_post .container {
+    display: inline-block;
     margin: 20px 20px;
   }
+  .main .content .right .popular_post .container img {
+    width: 30%;
+    float: left;
+  }
+  .main .content .right .popular_post .container p {
+    padding: 20px;
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+  }
+  .main .content .right .popular_post .container span {
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+  }
   .main .footer {
-    font-size: 20px;
+    margin-top: 20px;
+    background-color: #616161;
     width: 100vw;
     height: 20vh;
-    background: #616161;
-    margin-top: 30px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: white;
   }
 }/*# sourceMappingURL=index.css.map */
