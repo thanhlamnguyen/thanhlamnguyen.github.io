@@ -382,17 +382,18 @@ body {
   .main .container .row .right .right_four p i {
     font-size: 36px;
   }
-  .main .footer {
-    height: 80px;
-    background-color: #435761;
-    padding: 35px 16px;
+  .main .footer-first {
+    padding: 25px 5px;
+    width: 100%;
+    background-color: #4d636f;
     color: #fff;
-  }
-  .main .footer .first {
     font-size: 18px;
   }
-  .main .footer .second {
+  .main .footer-second {
+    padding: 25px 5px;
+    width: 100%;
     background-color: #303e45;
+    color: #fff;
     font-size: 15px;
   }
 }
@@ -758,17 +759,18 @@ body {
   .main .container .row .right .right_four p i {
     font-size: 36px;
   }
-  .main .footer {
-    height: 80px;
-    background-color: #435761;
-    padding: 35px 16px;
+  .main .footer-first {
+    padding: 25px 5px;
+    width: 100%;
+    background-color: #4d636f;
     color: #fff;
-  }
-  .main .footer .first {
     font-size: 18px;
   }
-  .main .footer .second {
+  .main .footer-second {
+    padding: 25px 5px;
+    width: 100%;
     background-color: #303e45;
+    color: #fff;
     font-size: 15px;
   }
 }/*# sourceMappingURL=index.css.map */
